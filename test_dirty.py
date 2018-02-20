@@ -18,7 +18,7 @@ running = True
 
 game_screen = pygame.display.set_mode((s_width, s_height), pygame.DOUBLEBUF)
 background = pygame.Surface(game_screen.get_size()) # Criando uma nova Surface
-background = background.convert() # Conversando os pixels para "pygame"
+background = background.convert() # Convertendo os pixels para "pygame"
 background.fill((255,0,0)) # Cor do Background
 
 class Player(pygame.sprite.DirtySprite): # Herdando Dirty_Sprites
