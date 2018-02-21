@@ -40,6 +40,7 @@ class Player(pygame.sprite.DirtySprite): # Herdando Dirty_Sprites
         self.rect.x += x
     def p_move_y(self, y):
         self.rect.y += y
+        
 player = Player()
 
 allsprites = pygame.sprite.LayeredDirty(player) # Adicionando o Objeto ao "grupo"
