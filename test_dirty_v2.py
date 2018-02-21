@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 #test_map.py
 
+
 import pygame
 from pygame.locals import *
 
