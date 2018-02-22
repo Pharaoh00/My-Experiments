@@ -33,6 +33,7 @@ class Player(pygame.sprite.DirtySprite): # Herdando Dirty_Sprites
         self.check_press_x = False
         self.check_press_y = False
 
+    #NEW DEFINITION FOR MOVE THE PLAYER __CHECK_OUT__
     def move_player(self, x=0, y=0, bool_x=False, bool_y=False):
         self.speed_x = x
         self.speed_y = y
