@@ -19,13 +19,13 @@ class Player(pygame.sprite.Sprite):
     def __init__(self, position):
         
         pygame.sprite.Sprite.__init__(self) # Inicializando a Herança
-        self.image = pygame.Surface((70,50), pygame.SRCALPHA)
+        self.image = pygame.Surface((50,70), pygame.SRCALPHA)
         self.image.fill((0,0,0))
         self.original_image = self.image
         self.rect = self.image.get_rect(center=position)
         self.pos = Vector2(position)
         #self.vel = Vector2(0,0)
-        self.direction = Vector2(1,0)
+        self.direction = Vector2(0,1)
         self.speed = 0
         self.angle_speed = 0
         #self.angle = 0
