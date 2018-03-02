@@ -1,6 +1,5 @@
 #!coding:utf-8
 #test_map_v7.py
-
 import pygame
 from pygame.math import Vector2
 
