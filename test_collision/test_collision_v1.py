@@ -1,8 +1,6 @@
 #!coding:utf-8
 #test_collision_v1.py
 
-import random
-import math
 import pygame
 import random
 from pygame.math import Vector2
