@@ -20,8 +20,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self):
         
         pygame.sprite.Sprite.__init__(self) # Inicializando a Herança
-        self.image = pygame.image.load("poo1.png") # Imagem aleatoria
-        #self.image = pygame.Surface((50,50)) # Criando uma nova Surface
+        self.image = pygame.Surface((50,50)) # Criando uma nova Surface
         self.original_image = self.image
         self.rect = self.image.get_rect() # Criando um rect do tamanho da Surface
         #self.rect = pygame.draw.rect(self.image, (0,255,0), self.rect)
